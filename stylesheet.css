@@ -1,0 +1,199 @@
+body{
+    background:linear-gradient(180deg, #B0D8E1 0%, rgba(230, 244, 248, 0) 100%);
+
+}
+
+.header{
+height: 100px;
+width:100%;
+background-color: #7C73E6;
+padding:0px 0px;
+position: sticky;
+top: 0;
+opacity: 90%;
+
+}
+.menu{
+    display:none;
+}
+
+.header li:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+.header ul {
+    padding-left: 900px;
+}
+.header li {
+    float: left;
+    padding: 33px 16px;
+    list-style: none;
+    display: block;
+    transition: all 1s;
+    
+  }
+
+  .header a{
+    color: black;
+    font-size: 26px;
+    line-height: 36px;  
+    font-family: 'Cabin', sans-serif;
+    text-decoration:none
+  }
+
+
+.about-container {
+    margin-top: 200px;
+    background-color: #7C73E6;
+    border-radius: 143px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-right: 60px;
+    width: 900px;
+    margin-left: -130px;
+    
+}
+
+.about-container h1{
+    margin-left: 250px;
+    font-size: 64px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.about-container p{
+    margin-left: 250px;
+    font-size: 25px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.about img{
+    border-radius: 200px;
+    float: right;
+    margin-top: -100px;
+    width: 448px;
+    height: 656px;
+    margin-right: 100px;
+}
+
+.experience-container{
+    background-color: #5BE7C4;
+    padding-top: 30px;
+    padding-bottom: 400px;
+    text-align: center;
+    width: 100%;
+    margin-top: 250px;
+    font-family: 'Cabin', sans-serif;
+    
+}
+
+
+.experience-container li{
+    padding: 0 20px;
+    list-style: none;
+    float: left;
+    font-size: 25px;
+    width: 23%;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.tempat-kerja{
+    margin-top: -15px;
+    font-size: 22px;
+}
+
+.jabatan{
+    font-weight: bold;
+}
+
+
+
+.experience-container h1{
+    font-size: 64px;
+    
+}
+
+
+.fa {
+    margin-right: 5px;
+  }
+
+
+
+.contact img{
+    width: 110px;
+    height: 110px;
+
+}
+
+.contact{
+    margin-top: 100px;
+    font-size: 64px;
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+
+}
+
+.social-1 img{
+    margin:10px 30px;
+
+}
+.social-2 img{
+    margin:10px 120px;
+    
+}
+.social-3 img{
+    margin:10px 30px;
+    
+}
+
+
+
+.footer{
+    margin-top:100px;
+    height: 70px;
+    background-color: #7c73e6;
+    bottom: 0;
+    font-family: 'Cabin', sans-serif;
+  }
+  
+.footer p{
+    
+    width: 100%;
+    height: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 70px;
+    color: 000000;
+    text-align: center;
+  }
+  .projects {
+    height: 944px;
+    background: rgba(124, 115, 230, 0.8);
+    
+  }
+  
+  .projects h2 {
+    text-align: center;
+    font-size: 64px;
+    line-height: 78px;
+    color: #000000;
+    width: 100%;
+    padding-top: 85px;
+    font-family: 'Cabin', sans-serif;
+  }
+  
+  .projects img {
+    border-radius: 40px;
+    margin: 50px 100px;
+    height: 234;
+    width: 273;
+    
+  }
+
+  .projects img:hover{
+    height: 254px;
+    width: 293px;
+    transition: 0.3;
+  }
